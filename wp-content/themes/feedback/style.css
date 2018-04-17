@@ -1,0 +1,62 @@
+/*
+Theme Name: feedback
+Theme URI:
+Author: Marcos Galiano
+Author URI:
+Description: Theme para agencia digital
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: agencia, mobile first, responsive, digital
+Text Domain: agencia digital
+*/
+
+html {
+	padding: 0px;
+	margin:0px;
+	box-sizing: border-box;
+}
+
+body {
+	color:white;	
+}
+
+h1 {
+	padding: 0px;
+	margin:0px;
+}
+
+/*****HEADER****/
+
+.encabezado {
+	background-image: url(./img/fondo.png);
+	background-size: cover;
+	background-repeat: no-repeat, repeat;
+	height: 100vh;
+	width:100%;
+}
+
+.contenedor {
+	padding-top: 10px;
+	margin: auto;
+	width:90%;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+.pages {
+	display: flex;
+	font-size: 1.1em;
+}
+
+li {
+	list-style: none;
+	margin: 0px 20px;
+}
+
+.contenedor-down {
+	margin: auto;
+	width:90%;
+}
+
