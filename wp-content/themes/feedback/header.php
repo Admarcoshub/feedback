@@ -8,8 +8,7 @@
 </head>
 <body>
 	<header class="encabezado">
-		<div class="contenedor">
-			<div class="name"><h1>feedback</h1></div>
+		<div class="contenedor">			
 			<div class="pages">
 				<li>Inicio</li>
 				<li>Nosotros</li>
@@ -19,8 +18,37 @@
 			</div>
 		</div>
 		<div class="contenedor-down">
-			<div class="card"><?php get_template_directory_uri(); ?><img src="wp-content/themes/feedback/img/card.png" width="200" height="200"></div>
-			<div class="socal-media"></div>
+			<div class="card">
+				<div class="name"><h1>feedback</h1></div>
+				<?php get_template_directory_uri(); ?><img src="wp-content/themes/feedback/img/card.png" width="200" height="200">
+				<p class="title">AGENCIA DIGITAL</p>
+				<div class="avances">
+					<div class="avances-in">
+						<p class="propo">Proyectos</p>
+						<div class="detalle">
+							<div class="number">3</div>
+							<div class="avance-line"></div>
+						</div>
+					</div>
+					<div class="avances-in">
+						<p class="propo">Recursos</p>
+						<div class="detalle">
+							<div class="number">4</div>
+							<div class="avance-line"></div>
+						</div>
+					</div>
+					<div class="avances-in">
+						<p class="propo">Clientes</p>
+						<div class="detalle">
+							<div class="number">2</div>
+							<div class="avance-line"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="social-media"></div>
 			<div class="copy"></div>
 		</div>
 	</header>

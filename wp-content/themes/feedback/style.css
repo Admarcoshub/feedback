@@ -24,6 +24,7 @@ body {
 h1 {
 	padding: 0px;
 	margin:0px;
+	font-size: 3em;
 }
 
 /*****HEADER****/
@@ -41,7 +42,7 @@ h1 {
 	margin: auto;
 	width:90%;
 	display: flex;
-	justify-content: space-between;
+	flex-direction: row-reverse;
 	align-items: flex-end;
 }
 
@@ -56,7 +57,49 @@ li {
 }
 
 .contenedor-down {
+	display: flex;
 	margin: auto;
 	width:90%;
+}
+
+.title {
+	font-size: 1.5em;
+}
+
+.card {
+	text-align: center;
+}
+
+.name {
+	margin-top: 30px;
+	text-align: center;
+}
+
+.avances {
+	margin-top: 70px;
+}
+
+.avances-in {
+	margin-top: 50px;
+}
+
+
+.propo {
+	text-align: left;
+}
+
+
+.detalle {
+	text-align: left;
+	display: flex;
+	align-items: center;
+	width:60%;	
+}
+
+.avance-line {
+	width: 100px;
+	height: 1px;
+	background: #ffffff;
+	margin-left: 20px;
 }
 
