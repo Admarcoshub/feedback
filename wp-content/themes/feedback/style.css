@@ -83,11 +83,16 @@ li {
 	margin-top: 50px;
 }
 
+@media only screen and (max-width: 1366px) {
+    .avances-in, .avances {
+        margin-top: 10px;
+    }
+}
+
 
 .propo {
 	text-align: left;
 }
-
 
 .detalle {
 	text-align: left;

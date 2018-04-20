@@ -10,4 +10,14 @@
 	}
 	add_action('wp_enqueue_scripts', 'feedback_styles');
 
+	function feedback_nenus () {
+		register_nav_menus(array(
+			'header-menu' => __('Header Menu' , 'Agencia Digital'),
+			'social-menu' => __('Social Menu' , 'Agencia Digital')
+		));
+
+	}
+
+	add_action( 'init' , 'feedback_nenus');
  ?>
+
