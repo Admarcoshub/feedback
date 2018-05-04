@@ -46,9 +46,15 @@
 					</div>
 				</div>
 			</div>
-
-
-			<div class="social-media"></div>
-			<div class="copy"></div>
+			<div class="social-media">				
+					<div class="sm"><?php get_template_directory_uri(); ?><img src="wp-content/themes/feedback/img/rs/youtube.png" width="25" height="25"></div>
+					<div class="sm"><?php get_template_directory_uri(); ?><img src="wp-content/themes/feedback/img/rs/facebook.png" width="25" height="25"></div>
+					<div class="sm"><?php get_template_directory_uri(); ?><img src="wp-content/themes/feedback/img/rs/linkedin.png" width="25" height="25"></div>
+					<div class="sm"><?php get_template_directory_uri(); ?><img src="wp-content/themes/feedback/img/rs/instagram.png" width="25" height="25"></div>
+					<div class="sm"><?php get_template_directory_uri(); ?><img src="wp-content/themes/feedback/img/rs/gplus.png" width="25" height="25"></div>			
+			</div>
+			<div class="copy">
+				
+			</div>
 		</div>
 	</header>

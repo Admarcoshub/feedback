@@ -59,15 +59,16 @@ li {
 .contenedor-down {
 	display: flex;
 	margin: auto;
-	width:90%;
+	width:95%;
 }
 
 .title {
-	font-size: 1.5em;
+	font-size: 1.4em;
 }
 
 .card {
 	text-align: center;
+	width:20%;
 }
 
 .name {
@@ -102,9 +103,30 @@ li {
 }
 
 .avance-line {
-	width: 100px;
+	width: 150px;
 	height: 1px;
 	background: #ffffff;
 	margin-left: 20px;
 }
+
+.social-media {
+	width:5%;	
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.sm {
+	margin:40px 0px;
+}
+
+.copy {
+	width:75%;
+}
+
+
+
+
+
+
 
